@@ -1,6 +1,6 @@
 import { FC } from 'react';
 
-const FormSearchTask: FC = () => {
+const SearchTask: FC = () => {
   return (
     <>
       <div className="mt-4">
@@ -18,4 +18,4 @@ const FormSearchTask: FC = () => {
   );
 };
 
-export default FormSearchTask;
+export default SearchTask;

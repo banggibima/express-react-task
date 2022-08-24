@@ -4,7 +4,7 @@ import { Link, useNavigate } from 'react-router-dom';
 
 import Navbar from '../../components/Navbar';
 import Header from '../../components/Header';
-import AddStudent from '../../components/Form/AddStudent';
+import AddStudent from '../../components/Form/Student/Add';
 import Footer from '../../components/Footer';
 
 interface InitialStateStudent {
@@ -53,7 +53,7 @@ const StudentAdd: FC = () => {
       <Navbar />
       <Header title="Student Add" />
       <main>
-        <div className="max-w-3xl mx-auto sm:px-6 lg:px-8">
+        <div className="max-w-5xl mx-auto sm:px-6 lg:px-8">
           <div className="px-4 sm:px-0">
             <div className="sm:flex-none space-x-2">
               <Link

@@ -33,7 +33,7 @@ const TaskInfo: FC = () => {
       <Navbar />
       <Header title="Task Info" />
       <main>
-        <div className="max-w-3xl mx-auto sm:px-6 lg:px-8">
+        <div className="max-w-5xl mx-auto sm:px-6 lg:px-8">
           <div className="px-4 sm:px-0">
             <div className="sm:flex-none space-x-2">
               <Link

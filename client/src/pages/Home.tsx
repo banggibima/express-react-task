@@ -69,7 +69,7 @@ const Home: FC = () => {
       <Navbar />
       <Header title="Home" />
       <main>
-        <div className="max-w-3xl mx-auto sm:px-6 lg:px-8">
+        <div className="max-w-5xl mx-auto sm:px-6 lg:px-8">
           <div className="px-4 sm:px-0">
             <Stats stats={stats} />
           </div>

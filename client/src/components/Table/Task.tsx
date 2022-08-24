@@ -27,7 +27,13 @@ const TableTask: FC<Props> = ({ tasks, deleteTask }) => {
                         scope="col"
                         className="px-4 py-2 text-left text-xs font-medium"
                       >
-                        Title
+                        Subject
+                      </th>
+                      <th
+                        scope="col"
+                        className="px-4 py-2 text-left text-xs font-medium"
+                      >
+                        Deadline Date
                       </th>
                       <th
                         scope="col"
@@ -60,7 +66,10 @@ const TableTask: FC<Props> = ({ tasks, deleteTask }) => {
                           {task.student}
                         </td>
                         <td className="whitespace-nowrap px-4 py-2 text-sm">
-                          {task.title}
+                          {task.subject}
+                        </td>
+                        <td className="whitespace-nowrap px-4 py-2 text-sm">
+                          {task.deadline_date}
                         </td>
                         <td className="whitespace-nowrap px-4 py-2 text-sm">
                           {task.submission_date}

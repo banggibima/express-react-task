@@ -1,11 +1,11 @@
 import { FC } from 'react';
 
-const FormSearchLecturer: FC = () => {
+const SearchStudent: FC = () => {
   return (
     <>
       <div className="mt-4">
         <label htmlFor="search" className="block text-xs font-medium">
-          Search Lecturer Data
+          Search Student Data
         </label>
         <input
           type="text"
@@ -18,4 +18,4 @@ const FormSearchLecturer: FC = () => {
   );
 };
 
-export default FormSearchLecturer;
+export default SearchStudent;

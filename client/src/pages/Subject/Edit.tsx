@@ -4,7 +4,7 @@ import { Link, useNavigate, useParams } from 'react-router-dom';
 
 import Navbar from '../../components/Navbar';
 import Header from '../../components/Header';
-import EditSubject from '../../components/Form/EditSubject';
+import EditSubject from '../../components/Form/Subject/Edit';
 import Footer from '../../components/Footer';
 
 interface InitialStateSubject {
@@ -77,7 +77,7 @@ const SubjectEdit: FC = () => {
       <Navbar />
       <Header title="Subject Edit" />
       <main>
-        <div className="max-w-3xl mx-auto sm:px-6 lg:px-8">
+        <div className="max-w-5xl mx-auto sm:px-6 lg:px-8">
           <div className="px-4 sm:px-0">
             <div className="sm:flex-none space-x-2">
               <Link

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 import Navbar from '../../components/Navbar';
 import Header from '../../components/Header';
-import FormSearchStudent from '../../components/Form/SearchStudent';
+import SearchStudent from '../../components/Form/Student/Search';
 import TableStudent from '../../components/Table/Student';
 import Footer from '../../components/Footer';
 
@@ -40,7 +40,7 @@ const StudentList: FC = () => {
       <Navbar />
       <Header title="Student List" />
       <main>
-        <div className="max-w-3xl mx-auto sm:px-6 lg:px-8">
+        <div className="max-w-5xl mx-auto sm:px-6 lg:px-8">
           <div className="px-4 sm:px-0">
             <div className="sm:flex-none space-x-2">
               <Link
@@ -56,7 +56,7 @@ const StudentList: FC = () => {
                 Print
               </button>
             </div>
-            <FormSearchStudent />
+            <SearchStudent />
             <TableStudent students={students} deleteStudent={deleteStudent} />
           </div>
         </div>

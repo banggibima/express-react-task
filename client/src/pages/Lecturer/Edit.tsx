@@ -4,7 +4,7 @@ import { Link, useNavigate, useParams } from 'react-router-dom';
 
 import Navbar from '../../components/Navbar';
 import Header from '../../components/Header';
-import EditLecturer from '../../components/Form/EditLecturer';
+import EditLecturer from '../../components/Form/Lecturer/Edit';
 import Footer from '../../components/Footer';
 
 interface InitialStateLecturer {
@@ -62,7 +62,7 @@ const LecturerEdit: FC = () => {
       <Navbar />
       <Header title="Lecturer Edit" />
       <main>
-        <div className="max-w-3xl mx-auto sm:px-6 lg:px-8">
+        <div className="max-w-5xl mx-auto sm:px-6 lg:px-8">
           <div className="px-4 sm:px-0">
             <div className="sm:flex-none space-x-2">
               <Link

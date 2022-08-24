@@ -14,7 +14,7 @@ const About: FC = () => {
       <Navbar />
       <Header title="About" />
       <main>
-        <div className="max-w-3xl mx-auto sm:px-6 lg:px-8">
+        <div className="max-w-5xl mx-auto sm:px-6 lg:px-8">
           <div className="px-4 sm:px-0">
             <p className="text-sm">
               These application are built using React as Frontend and Express as

@@ -19,6 +19,7 @@ import LecturerAdd from './pages/Lecturer/Add';
 import LecturerInfo from './pages/Lecturer/Info';
 import LecturerEdit from './pages/Lecturer/Edit';
 import About from './pages/About';
+import NotFound from './pages/NotFound';
 
 const App: FC = () => {
   return (
@@ -43,6 +44,7 @@ const App: FC = () => {
           <Route path="/lecturer/info/:id" element={<LecturerInfo />} />
           <Route path="/lecturer/edit/:id" element={<LecturerEdit />} />
           <Route path="/about" element={<About />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
     </>
